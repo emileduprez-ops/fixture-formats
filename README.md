@@ -17,7 +17,7 @@ Python 3.9 or newer.
 ## Installation
 
 ```
-pip install git+https://github.com/<user>/fixture-formats.git
+pip install git+https://github.com/emileduprez-ops/fixture-formats.git
 ```
 
 Or from a local checkout:
