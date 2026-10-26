@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fixtureformats"
+version = "0.1.0"
+description = "Parse GDTF, QLC+ (.qxf) and Open Fixture Library fixture definitions into one neutral model"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name = "Emile Duprez" }]
+requires-python = ">=3.9"
+dependencies = []
+keywords = ["dmx", "gdtf", "qlc", "qxf", "open-fixture-library", "lighting", "fixture"]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Topic :: Multimedia",
+]
+
+[tool.setuptools]
+packages = ["fixtureformats"]
